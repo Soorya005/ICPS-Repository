@@ -10,7 +10,7 @@ int rowPins[rows] = {9, 8, 7, 6};
 int colPins[cols] = {5, 4, 3, 2};
 
 void setup() {
-    Serial.begin(9600);  // Correct capitalization for Serial
+    Serial.begin(9600);  
     for (int row = 0; row < rows; row++) {
         pinMode(rowPins[row], INPUT_PULLUP);
     }
